@@ -10,4 +10,17 @@ body {
     background-repeat:no-repeat;
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+.container {
+    width:800px;
+    height:500px;
+    padding:20px;
+    margin:75px;
+    background-color:white;
    }
+
+.dog {
+    width:200px;
+    height:200px;
+}
