@@ -4,7 +4,7 @@
 }
 
 body {
-    background:url("pexels-adrianna-calvo-1253718.jpg");
+    background:url("./images/pexels-adrianna-calvo-1253718.jpg");
     height:100vh;
     background-size:100% 100%;
     background-repeat:no-repeat;
@@ -16,11 +16,17 @@ body {
     width:800px;
     height:500px;
     padding:20px;
-    margin:75px;
+    margin-top:75px;
     background-color:white;
+    justify-content: center;
+    border-radius:15px;
    }
 
 .dog {
     width:200px;
     height:200px;
+}
+
+.wrap-it {
+    float: right;
 }
