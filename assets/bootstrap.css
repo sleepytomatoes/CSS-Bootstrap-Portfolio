@@ -13,18 +13,19 @@ body {
 }
 
 .container {
-    width:800px;
-    height:500px;
-    padding:20px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
     margin-top:75px;
+    padding:10px;
     background-color:white;
-    justify-content: center;
-    border-radius:15px;
+    justify-content:center;
+    border-radius:20px;
    }
 
 .dog {
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     padding:10px;
 }
 
@@ -47,13 +48,13 @@ body {
  }
 
  #content-container {
-     width:500px;
-     height:500px;
-     padding:20px;
-     margin-top:75px;
-     background-color:white;
-     justify-content:center;
-     border-radius:15px;
+    width:500px;
+    height:500px;
+    padding:20px;
+    margin-top:75px;
+    background-color:white;
+    justify-content:center;
+    border-radius:15px;
  }
 
  .thumbnail {
