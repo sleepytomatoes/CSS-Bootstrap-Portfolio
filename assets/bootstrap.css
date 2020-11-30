@@ -25,6 +25,7 @@ body {
 .dog {
     width:200px;
     height:200px;
+    padding:10px;
 }
 
 .wrap-it {
@@ -39,4 +40,22 @@ body {
     background-color: grey;
     color: white;
     text-align: center;
+ }
+
+ #header-font {
+     font-size:24px;
+ }
+
+ #content-container {
+     width:500px;
+     height:500px;
+     padding:20px;
+     margin-top:75px;
+     background-color:white;
+     justify-content:center;
+     border-radius:15px;
+ }
+
+ .thumbnail {
+     justify-content: space-evenly;
  }
